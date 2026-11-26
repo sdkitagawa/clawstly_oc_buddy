@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "opencode-clawstly",
+  "version": "0.1.0",
+  "description": "Clawstly, an ASCII mascot for the OpenCode TUI: home and sidebar placement, a selectable Free/Pro/Max/Ultra tier, and a live working-directory line.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Douglas Kitagawa",
+  "homepage": "https://github.com/sdkitagawa/clawstly#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdkitagawa/clawstly.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sdkitagawa/clawstly/issues"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "tui",
+    "ascii-art",
+    "mascot"
+  ],
+  "files": [
+    "tui.tsx",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "exports": {
+    "./tui": "./tui.tsx"
+  }
+}
