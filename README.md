@@ -1,3 +1,9 @@
+<div align="center">
+  <img src="assets/clawstly_buddy.svg" width="560" alt="Clawstly OC Buddy - Clawstly Buddy is an ASCII mascot for the OpenCode TUI. Sits above the wordmark on the home screen and in the session sidebar." />
+<br /><br />
+
+</div>
+
 # Clawstly
 
 Clawstly is an ASCII mascot for the OpenCode TUI. It sits above the OpenCode wordmark on the
@@ -15,7 +21,7 @@ the folder and hot-reloads it on save.
     ▝▚   ▞▘
     ▐▛███▛█        Clawstly vX.X.X
    ▝▜██████▀       Clawstly · Plan
-    ▝▝   ▝▝        X:\Users\…
+    ▝▝   ▝▝        /home/username/…
 ```
 
 ### Busy 1
@@ -24,7 +30,7 @@ the folder and hot-reloads it on save.
 ▝   ▝▚   ▞▘
  ▝  ▐▛███▛█        Clawstly vX.X.X
 ▀  ▝▜██████▀       Clawstly · Plan
-    ▝▝   ▝▝        X:\Users\…
+    ▝▝   ▝▝        /home/username/…
      ▐████▌
      ▀▀▀▀▀▀
 ```
@@ -35,7 +41,7 @@ the folder and hot-reloads it on save.
     ▝▚   ▞▘ ▝ 
     ▐▛███▛█    ▀   Clawstly vX.X.X
    ▝▜██████▀ ▝     Clawstly · Plan
-    ▝▝   ▝▝        X:\Users\…
+    ▝▝   ▝▝        /home/username/…
      ▐████▌
      ▀▀▀▀▀▀
 ```
@@ -46,7 +52,7 @@ the folder and hot-reloads it on save.
     ▝▚   ▞▘   ▐█
     ▐▛███▛█   ▝▀   Clawstly vX.X.X
    ▝▜██████▀  ▝▀   Clawstly · Plan
-    ▝▝   ▝▝        X:\Users\…  
+    ▝▝   ▝▝        /home/username/…  
 ```
 
 ## Features
@@ -58,7 +64,7 @@ the folder and hot-reloads it on save.
 - **Working animation** - Two poses alternate while the model thinks or runs tools; a brief error
   pose follows a failure. The art returns to the exact idle drawing when work ends.
 - **One colour** - Every glyph uses `#D77757`, with no state-based colour changes.
-- **No build step** — OpenCode loads `tui.tsx` directly and hot-reloads on save.
+- **No build step** - OpenCode loads `tui.tsx` directly and hot-reloads on save.
 
 ## Requirements
 
